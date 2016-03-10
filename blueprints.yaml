@@ -1,0 +1,26 @@
+name: SCSS Compiler
+version: 1.0.0
+description: Allows for the dyanmic compilation of SCSS files
+icon: refresh
+author:
+  name: Team Grav
+  email: devs@getgrav.org
+  url: http://getgrav.org
+homepage: https://github.com/getgrav/grav-plugin-scss
+keywords: scss, leafo, scssphp
+bugs: https://github.com/getgrav/grav-plugin-scss/issues
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
