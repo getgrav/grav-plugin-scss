@@ -1,6 +1,6 @@
 # Grav SCSS Plugin
 
-`SCSS` is a [Grav][grav] Plugin which allows for the dynamic compilation of PHP files.
+`SCSS` is a [Grav](http://getgrav.org) Plugin which allows for the dynamic compilation of PHP files.
 
 # Installation
 
